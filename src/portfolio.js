@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
+  username: "Saad Ali",
   title: "Hi all, I'm Saad",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A Full Stack Software Developer 🚀 with experience in modern web development and AI-powered applications. I build responsive, scalable solutions using React, Next.js, Node.js, TypeScript, MongoDB, and integrate AI technologies to create smarter user experiences."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,12 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/saadali0987",
+  linkedin: "www.linkedin.com/in/saad-ali-09812131ss",
+  gmail: "slh098098@gmail.com",
+  facebook: "https://www.facebook.com/saad.ali.326790",
+  instagram: "https://www.instagram.com/saadd_996?igsh=eDE2Ym1nbmE5ZDB4",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +48,19 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER SPECIALIZING IN MODERN JAVASCRIPT TECHNOLOGIES",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build responsive, scalable, and user-friendly web applications using React, Next.js, TypeScript, Tailwind CSS, and the MERN stack."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Develop secure backend APIs, authentication systems, and database solutions with Node.js, Express, MongoDB, MySQL, and Prisma."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integrate AI capabilities using LLMs and external AI APIs to create intelligent, productivity-focused applications."
+    ),
+    emoji(
+      "⚡ Work with cloud technologies including Firebase, cloud storage, authentication services, and third-party APIs to build reliable, production-ready applications."
     )
+
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -126,24 +129,25 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "FAST NUCES",
+      logo: require("./assets/images/fast.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "August 2022 - June 2026",
+      desc: "Built a strong foundation in software engineering, algorithms, databases, operating systems, and computer networks while gaining hands-on experience through academic and personal projects.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "🎓 Completed coursework in Data Structures & Algorithms, Database Systems, Operating Systems, Computer Networks, and Software Engineering.",
+        "💻 Developed multiple full-stack applications using the MERN stack, Next.js, TypeScript, and modern development tools.",
+        "🚀 Strengthened problem-solving, software design, and collaborative development skills through projects and practical assignments."
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+    // {
+    //   schoolName: "Stanford University",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    // }
   ]
 };
 
@@ -157,11 +161,15 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Backend/database",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "AI integration",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Cloud services",
       progressPercentage: "60%"
     }
   ],
@@ -174,30 +182,37 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Frontend Engineer",
+      company: "Bookme",
+      companylogo: require("./assets/images/bookme.png"),
+      date: "August 2025",
+      desc: "Contributed to Bookme.pk's production web platform, building user-facing features and supporting the company's expansion into the Saudi Arabia market.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "🚀 Contributed to Bookme.pk's Saudi Arabia product launch.",
+        "💻 Developed responsive frontend features with Vue.js and Nuxt.js.",
+        "🤝 Collaborated with cross-functional teams in an Agile environment.",
+        "🔧 Enhanced application performance and code quality through refactoring."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web developer Intern",
+      company: "Bookme",
+      companylogo: require("./assets/images/bookme.png"),
+      date: "June 2026 – August 2026",
+      desc: "Contributed to the development of Bookme.pk's internal Back-Office Admin Portal, building reusable components and integrating APIs while gaining hands-on experience with production software development",
+      descBullets: [
+        "💻 Developed reusable UI components using Vue.js, Nuxt.js, and Tailwind CSS.",
+        "🤝 Collaborated using Git and Agile practices in a production environment.",
+        "📈 Earned a promotion to Part-Time Software Engineer after a successful internship."
+      ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    // {
+    //   role: "Software Engineer Intern",
+    //   company: "Airbnb",
+    //   companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "Jan 2015 – Sep 2015",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // }
   ]
 };
 
@@ -216,21 +231,21 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/buycon.png"),
+      projectName: "Buycon",
+      projectDesc: "Developing an AI-powered SaaS platform for a US-based car dealership client, focused on streamlining dealership operations, inventory management, vehicle acquisition, and collaboration with vendors and inspectors.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://dev.buycon.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/fyp.jpeg"),
+      projectName: "AI Curated Digital Wardrobe",
+      projectDesc: "Developed an AI-powered digital wardrobe platform for my final year project, that helps users organize their clothing, generate personalized outfit recommendations, and make smarter fashion decisions using computer vision and machine learning.",
       footerLink: [
         {
           name: "Visit Website",
@@ -372,8 +387,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3084619964",
+  email_address: "slh098098@gmail.com"
 };
 
 // Twitter Section
